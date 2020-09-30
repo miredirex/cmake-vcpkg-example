@@ -10,7 +10,7 @@ git clone --recurse-submodules https://github.com/miredirex/cmake-vcpkg-example.
 
 Run `./vcpkg/bootstrap-vcpkg.sh` or `.\vcpkg\bootstrap-vcpkg.bat`
 
-Build the project using your IDE of choice or manually:
+Build the project using your IDE/build tool of choice or manually:
 
 ```bash
 cmake -B build -S .
