@@ -23,3 +23,14 @@ cmake -B build -S .
 ```bash
 cmake --build build
 ```
+
+## Troubleshooting
+
+If you're getting
+```
+Could not find a package configuration file provided by "fmt" with any of
+  the following names:
+ 
+  ...
+```
+or similar, try deleting cmake's build directory and rebuilding the project
