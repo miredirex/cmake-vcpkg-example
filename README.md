@@ -10,8 +10,8 @@ git clone --recurse-submodules https://github.com/miredirex/cmake-vcpkg-example.
 
 Run `./vcpkg/bootstrap-vcpkg.sh` or `.\vcpkg\bootstrap-vcpkg.bat`
 
-Fetch the dependencies:  
-(Optional, CMake should run `vcpkg install` anyway)
+Fetch the dependencies listed in the manifest([vcpkg.json](vcpkg.json)):  
+(_This is optional, CMake should run `vcpkg install` anyway_)
 ```bash
 ./vcpkg/vcpkg --feature-flags=manifests install
 ```
